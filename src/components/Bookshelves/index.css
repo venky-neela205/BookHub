@@ -1,0 +1,19 @@
+.Book-Shelves-main-container {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  background-color: #f7f8fa;
+}
+@media screen and (max-width: 786px) {
+  .Book-Shelves-main-container {
+    background-color: #f7f8fa;
+
+    background-size: cover;
+  }
+}
+.Footer {
+  display: flex;
+
+  align-self: center;
+}
